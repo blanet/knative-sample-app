@@ -8,7 +8,7 @@ http.createServer(function(req, res){
 	if (process.env.MESSAGE) {
 		res.end("<h3>" + process.env.MESSAGE + "</h3>\n");
 	} else {
-		res.end("<h3>Message Enpty!<h3>\n");
+		res.end("<h3>Message Empty!<h3>\n");
 	}
 }).listen(PORT);
 
