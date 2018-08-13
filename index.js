@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var http = require("http");
-var PORT = 8888;
+var PORT = 8080;
 
 http.createServer(function(req, res){
 	console.log("request received");
